@@ -1,10 +1,8 @@
 import { Tabs } from "expo-router";
 import React from "react";
 
-import { TabBarIcon } from "@/components/navigation/TabBarIcon";
 import { Colors } from "@/constants/Colors";
 import { useColorScheme } from "@/hooks/useColorScheme";
-import { FlatList } from "react-native-gesture-handler";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -16,7 +14,7 @@ export default function TabLayout() {
         headerShown: false,
       }}
     >
-      <Tabs.Screen name="index" />
+      <Tabs.Screen name="index" options={{ headerShown: false, tabBarStyle: { display: "none" } }} />
     </Tabs>
   );
 }
