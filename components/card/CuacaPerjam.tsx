@@ -22,7 +22,7 @@ const CardCuacaPerjam = () => {
       <View style={{ paddingHorizontal: 40, paddingVertical: verticalScale(10) }}>
         <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Text style={{ fontSize: moderateScale(20), color: "white" }}>Today</Text>
-          <Text style={{ fontSize: moderateScale(20), color: "white" }}>Novembaer, 11</Text>
+          <Text style={{ fontSize: moderateScale(20), color: "white" }}>November, 11</Text>
         </View>
       </View>
       <LinearGradient

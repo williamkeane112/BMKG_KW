@@ -103,4 +103,6 @@ const stylesCard = StyleSheet.create({
   },
 });
 
+
+
 export default { styles, stylesCard };
